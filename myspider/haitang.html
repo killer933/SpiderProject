@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh">
+ <head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   海棠搜书 - 自由的小说搜索网站!
+  </title>
+  <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+  <meta content="深夜搜书,海棠搜书,小说搜索" name="keywords"/>
+  <meta content="深夜搜书,海棠搜书，自由自在的小说搜索网站。上海棠搜书搜海棠御宅小说，御宅热门小说书籍尽收于海棠搜书网！" name="description"/>
+  <link href="/assets/css/common.min.css?v202103306" rel="stylesheet"/>
+  <script src="/assets/js/zepto.min.js" type="text/javascript">
+  </script>
+  <script src="/assets/js/autocomplete.min.js" type="text/javascript">
+  </script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RDB18GXN63">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RDB18GXN63');
+  </script>
+  <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1515360200033130">
+  </script>
+ </head>
+ <body>
+  <div style="display:none">
+   <a href="#" id="targetPC">
+    电脑版
+   </a>
+   <script src="/assets/js/stats.js" type="text/javascript">
+   </script>
+  </div>
+  <div class="container" style="background-color:#FFF8ED">
+   <header>
+    <a href="/">
+     <img alt="首页" class="header-left" src="/assets/images/home.png"/>
+    </a>
+    <h1 class="book">
+     <label>
+      <a class="w" href="/">
+       海棠搜书
+      </a>
+     </label>
+    </h1>
+   </header>
+   <section class="homeURL">
+    <div id="announcement" style="text-align: center;font-size: 16px;padding: 5px 0px;background: #fff8ed;">
+     请收藏海棠搜书网：
+     <a href="//www.henhaoso.com" title="海棠搜书">
+      henhaoso.com
+     </a>
+    </div>
+   </section>
+   <section class="SHsectionOne">
+    <div class="SHsectionOne-search">
+     <img alt="搜索" src="/assets/images/graySearch.png"/>
+     <input id="searchContent" placeholder="请输入搜索关键词" type="text"/>
+     <a href="javascript:void(0)" id="search">
+      点击搜索
+     </a>
+    </div>
+    <section class="homeNavi">
+     <ul class="clearfix">
+      <li>
+       <a href="/s/言情">
+        言情
+       </a>
+      </li>
+      <li>
+       <a href="/s/耽美">
+        耽美
+       </a>
+      </li>
+      <li>
+       <a href="/s/同人/">
+        同人
+       </a>
+      </li>
+      <li>
+       <a href="/s/综合/">
+        综合
+       </a>
+      </li>
+      <li>
+       <a href="/s/PO18/">
+        PO18
+       </a>
+      </li>
+     </ul>
+     <ul class="clearfix">
+      <li>
+       <a href="/s/都市">
+        都市
+       </a>
+      </li>
+      <li>
+       <a href="/s/现言">
+        现言
+       </a>
+      </li>
+      <li>
+       <a href="/s/古言">
+        古言
+       </a>
+      </li>
+      <li>
+       <a href="/s/轻小说">
+        轻小说
+       </a>
+      </li>
+      <li>
+       <a href="/s/原创小说">
+        原创
+       </a>
+      </li>
+     </ul>
+     <ul class="clearfix">
+      <li>
+       <a href="/s/科幻">
+        科幻
+       </a>
+      </li>
+      <li>
+       <a href="/s/仙侠">
+        仙侠
+       </a>
+      </li>
+      <li>
+       <a href="/s/奇幻">
+        奇幻
+       </a>
+      </li>
+      <li>
+       <a href="/s/玄幻">
+        玄幻
+       </a>
+      </li>
+      <li>
+       <a href="/s/同人衍生">
+        衍生
+       </a>
+      </li>
+     </ul>
+    </section>
+   </section>
+   <section class="SHsectionTwo">
+    <div class="SHsectionTwo-top">
+     <p class="SHsectionTwo-top-title">
+      搜索历史
+      <span id="clearHistory">
+       清空历史
+      </span>
+     </p>
+     <ul class="SHsectionTwo-top-content" id="last_search">
+     </ul>
+    </div>
+    <div class="SHsectionTwo-top">
+     <p class="SHsectionTwo-bottom-title">
+      标签搜索
+     </p>
+     <ul class="SHsectionTwo-bottom-content">
+      <li>
+       <a href="/s/古代">
+        古代
+       </a>
+      </li>
+      <li>
+       <a href="/s/现代">
+        现代
+       </a>
+      </li>
+      <li>
+       <a href="/s/男男">
+        男性
+       </a>
+      </li>
+      <li>
+       <a href="/s/女女">
+        女性
+       </a>
+      </li>
+      <li>
+       <a href="/s/励志">
+        励志
+       </a>
+      </li>
+      <li>
+       <a href="/s/清水">
+        清水
+       </a>
+      </li>
+      <li>
+       <a href="/s/甜文">
+        甜文
+       </a>
+      </li>
+      <li>
+       <a href="/s/校园">
+        校园
+       </a>
+      </li>
+      <li>
+       <a href="/s/职场">
+        职场
+       </a>
+      </li>
+      <li>
+       <a href="/s/种田">
+        种田
+       </a>
+      </li>
+      <li>
+       <a href="/s/年下">
+        年下
+       </a>
+      </li>
+      <li>
+       <a href="/s/ABO">
+        ABO
+       </a>
+      </li>
+      <li>
+       <a href="/s/1V1">
+        1V1
+       </a>
+      </li>
+      <li>
+       <a href="/s/腹黑">
+        腹黑
+       </a>
+      </li>
+      <li>
+       <a href="/s/NP">
+        NP
+       </a>
+      </li>
+      <li>
+       <a href="/s/美人">
+        美人
+       </a>
+      </li>
+      <li>
+       <a href="/s/BL">
+        BL
+       </a>
+      </li>
+      <li>
+       <a href="/s/同性">
+        同性
+       </a>
+      </li>
+      <li>
+       <a href="/s/百合">
+        百合
+       </a>
+      </li>
+      <li>
+       <a href="/s/强强">
+        强强
+       </a>
+      </li>
+      <li>
+       <a href="/s/爽文">
+        爽文
+       </a>
+      </li>
+      <li>
+       <a href="/s/狗血">
+        狗血
+       </a>
+      </li>
+      <li>
+       <a href="/s/娱乐圈">
+        娱乐圈
+       </a>
+      </li>
+      <li>
+       <a href="/s/快穿">
+        快穿
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="SHsectionTwo-bottom">
+     <p class="SHsectionTwo-bottom-title">
+      大家都在搜索
+     </p>
+     <ul class="SHsectionTwo-bottom-content">
+      <li>
+       <a href="/s/%E5%8F%A4%E4%BB%A3%E5%8F%8C%E6%80%A71">
+        1.古代双性1
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E8%A8%80%E6%83%85%E9%AD%94">
+        2.言情魔
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E9%A3%8E%E6%A0%96%E4%BA%91">
+        3.风栖云
+       </a>
+      </li>
+      <li>
+       <a href="/s/1%E6%94%BB%20%E5%8F%973p">
+        4.1攻 受3p
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E4%BB%99%E7%95%8C%20%E8%A8%80%E6%83%85">
+        5.仙界 言情
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E4%B8%96%E7%95%8C%E7%9A%84%E9%87%8D%E5%90%AF">
+        6.世界的重启
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E5%A8%87%E5%A6%BB%20%E6%80%BB%E8%A3%81">
+        7.娇妻 总裁
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E7%94%9F%E5%AD%90%E4%BB%99%E4%BE%A0%E8%80%BD%E7%BE%8E">
+        8.生子仙侠耽美
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E6%88%90%E9%95%BF%E5%BF%AB%E7%A9%BF">
+        9.成长快穿
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E9%87%8D%E7%94%9F%E6%94%B9%E5%8F%98%E8%A8%80%E6%83%85">
+        10.重生改变言情
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div class="SHsectionTwo-bottom">
+     <p class="SHsectionTwo-bottom-title">
+      最近搜索
+     </p>
+     <ul class="SHsectionTwo-bottom-content">
+      <li>
+       <a href="/s/%E9%AB%98%E5%B2%AD%E4%B9%8B%E8%8A%B1gb">
+        1.高岭之花gb
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E7%B3%96%E7%B3%96">
+        2.糖糖
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E6%A0%A1%E8%8A%B1%E5%92%8C%E9%97%A8%E5%8D%AB">
+        3.校花和门卫
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E5%8F%A4%E4%BB%A3%E7%94%B7%E7%94%B7h">
+        4.古代男男h
+       </a>
+      </li>
+      <li>
+       <a href="/s/bdsm">
+        5.bdsm
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E6%89%B6%E5%A5%B9">
+        6.扶她
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E4%BE%BF%E6%90%BA%E6%81%B6%E9%AD%94">
+        7.便携恶魔
+       </a>
+      </li>
+      <li>
+       <a href="/s/all">
+        8.all
+       </a>
+      </li>
+      <li>
+       <a href="/s/1V1">
+        9.1V1
+       </a>
+      </li>
+      <li>
+       <a href="/s/%E4%BA%8C%E9%94%85%E6%B0%B4">
+        10.二锅水
+       </a>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <section class="sectionTwo" id="recommends">
+    <p class="sectionTwo-top">
+     <span class="line-between">
+     </span>
+     推荐阅读
+    </p>
+    <div class="sectionTwo-content">
+     <div class="book_list_img">
+      <ul>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/15552/" title="捡个小豹当老婆(H)">
+          <img alt="捡个小豹当老婆(H)" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area51.mitecdn.com/3e/a5/aa/3ea5aa7e4a2da4083c8c7caf94d163b412a5079a.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/15552/">
+          捡个小豹当老婆(H)
+         </a>
+        </div>
+       </li>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/111339/" title="乐可(高H)">
+          <img alt="乐可(高H)" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area51.mitecdn.com/3e/a5/aa/3ea5aa7e4a2da4083c8c7caf94d163b412a5079a.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/111339/">
+          乐可(高H)
+         </a>
+        </div>
+       </li>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/184695/" title="双穴大奶体育老师(H)">
+          <img alt="双穴大奶体育老师(H)" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area51.mitecdn.com/3e/a5/aa/3ea5aa7e4a2da4083c8c7caf94d163b412a5079a.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/184695/">
+          双穴大奶体育老师(H)
+         </a>
+        </div>
+       </li>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/315749/" title="坚持人设(abo/gl)">
+          <img alt="坚持人设(abo/gl)" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area52.mitecdn.com/66/29/7d/66297dd2b384a021d51f7c4a39a771cea3c6fb3f.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/315749/">
+          坚持人设(abo/gl)
+         </a>
+        </div>
+       </li>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/337362/" title="可以温柔">
+          <img alt="可以温柔" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area52.mitecdn.com/book-image.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/337362/">
+          可以温柔
+         </a>
+        </div>
+       </li>
+       <li>
+        <div class="book_img_pic">
+         <a href="/book/459083/" title="冲喜【双性】">
+          <img alt="冲喜【双性】" height="120" onerror="this.src='https://area52.mitecdn.com/book-image.jpg'" src="https://area52.mitecdn.com/book-image.jpg" style="display: inline;" width="90"/>
+         </a>
+        </div>
+        <div class="book_img_name">
+         <a href="/book/459083/">
+          冲喜【双性】
+         </a>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <div class="footer-space" id="footer-space">
+   </div>
+   <footer>
+    <a href="/" title="海棠搜书网">
+     首页
+    </a>
+    <span class="line-between">
+    </span>
+    <a href="//www.henhaoso.net/">
+     备用1
+    </a>
+    <span class="line-between">
+    </span>
+    <a href="//www.haitangsoushu.com/">
+     备用2
+    </a>
+    <span class="line-between">
+    </span>
+    <a href="//www.haitangsoshu.com/">
+     备用3
+    </a>
+    <span class="line-between">
+    </span>
+    <a href="//www.shenyeso.net/">
+     备用4
+    </a>
+    <span class="line-between">
+    </span>
+    <a class="footer-to-top" href="#">
+     <img alt="返回顶部" src="/assets/images/toTop.png"/>
+     顶部
+    </a>
+   </footer>
+  </div>
+  <script>
+   var ua = navigator.platform.toLowerCase().match(/(win|mac)/i)? 1 : 0 ;
+var displaytime = new Date();
+if ((ua == 0 || document.location.href.indexOf("writebug") > 0) && ( displaytime.getHours() < 7 || displaytime.getHours() > 19 )) { console.log('recommends') } else { $('#recommends,.SHsectionTwo-bottom').remove(); }
+  </script>
+  <script src="/assets/js/index.min.js" type="text/javascript">
+  </script>
+ </body>
+</html>

@@ -1,0 +1,436 @@
+Running BrowserMob Proxy using LittleProxy implementation. To revert to the legacy implementation, run the proxy with the command-line option '--use-littleproxy false'.
+[INFO  2022-09-16T22:49:47,839 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2022-09-16T22:49:47,879 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2022-09-16T22:49:49,039 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2022-09-16T22:49:49,233 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[INFO  2022-09-16T22:49:51,490 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp189207010-20) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2022-09-16T22:49:51,541 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp189207010-20) Proxy listening with TCP transport 
+[INFO  2022-09-16T22:49:53,251 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp189207010-20) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[WARN  2022-09-16T22:50:03,157 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:03,157 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:03,483 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:03,484 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:03,800 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:03,801 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,064 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,065 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,335 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,336 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,580 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,581 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,604 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,604 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,620 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,620 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,632 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,633 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,635 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,635 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:04,855 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:04,855 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:05,449 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:05,449 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:07,780 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:07,780 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:07,911 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:07,911 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2022-09-16T22:50:08,714 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-6) (HANDSHAKING) [id: 0x827d62c2, L:0.0.0.0/0.0.0.0:26584 ! R:h5.miyushu.com/209.95.56.60:443]: Connection to upstream server failed javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 28 07:59:59 CST 2021
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+
+[ERROR 2022-09-16T22:50:08,732 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-6) (DISCONNECTED) [id: 0x827d62c2, L:0.0.0.0/0.0.0.0:26584 ! R:h5.miyushu.com/209.95.56.60:443]: Caught an exception on ProxyToServerConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 28 07:59:59 CST 2021
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
+[WARN  2022-09-16T22:50:27,233 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:27,234 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:27,544 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:27,545 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:27,855 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:27,856 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,115 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,116 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,268 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,268 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,291 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,292 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,540 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,540 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,540 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,540 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-3) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,550 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-1) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,550 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-1) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,556 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,556 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-5) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,564 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,564 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-2) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:28,719 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-7) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:28,719 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-7) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:29,713 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:29,713 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-4) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[WARN  2022-09-16T22:50:29,931 net.lightbody.bmp.filters.ServerResponseCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Cannot decode unsupported content encoding type br 
+[WARN  2022-09-16T22:50:29,932 net.lightbody.bmp.filters.HarCaptureFilter] (LittleProxy-0-ProxyToServerWorker-0) Unable to decompress content with encoding: br. Contents will be encoded as base64 binary data. 
+[INFO  2022-09-16T22:50:30,720 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-5) (HANDSHAKING) [id: 0x3f2f2f6e, L:0.0.0.0/0.0.0.0:26631 ! R:h5.miyushu.com/209.95.56.60:443]: Connection to upstream server failed javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 28 07:59:59 CST 2021
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	... 28 more
+
+[ERROR 2022-09-16T22:50:30,728 org.littleshoot.proxy.impl.ProxyToServerConnection] (LittleProxy-0-ProxyToServerWorker-5) (DISCONNECTED) [id: 0x3f2f2f6e, L:0.0.0.0/0.0.0.0:26631 ! R:h5.miyushu.com/209.95.56.60:443]: Caught an exception on ProxyToServerConnection io.netty.handler.codec.DecoderException: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:442) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:351) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:373) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:359) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:651) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:574) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:488) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:450) [browsermob-dist-2.1.4.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873) [browsermob-dist-2.1.4.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_341]
+Caused by: javax.net.ssl.SSLHandshakeException: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.ssl.Alert.createSSLException(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.TransportContext.fatal(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: sun.security.validator.ValidatorException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+Caused by: java.security.cert.CertificateExpiredException: NotAfter: Sun Nov 28 07:59:59 CST 2021
+	at sun.security.x509.CertificateValidity.valid(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.x509.X509CertImpl.checkValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.BasicChecker.check(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at java.security.cert.CertPathValidator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.doValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.PKIXValidator.engineValidate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.validator.Validator.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.validate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.checkServerCerts(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.onCertificate(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.CertificateMessage$T12CertificateConsumer.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLHandshake.consume(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.HandshakeContext.dispatch(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask$DelegatedAction.run(Unknown Source) ~[?:1.8.0_341]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_341]
+	at sun.security.ssl.SSLEngineImpl$DelegatedTask.run(Unknown Source) ~[?:1.8.0_341]
+	at io.netty.handler.ssl.SslHandler.runDelegatedTasks(SslHandler.java:1123) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1008) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:902) ~[browsermob-dist-2.1.4.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411) ~[browsermob-dist-2.1.4.jar:?]
+	... 15 more
+
